@@ -1,0 +1,29 @@
+{
+  "name": "check-typosquatters",
+  "version": "1.0.0",
+  "description": "Check list of packages from npm for similarly named packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmkent/check-typosquatters.git"
+  },
+  "keywords": [
+    "typosquatter"
+  ],
+  "author": "Dan Kent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmkent/check-typosquatters/issues"
+  },
+  "homepage": "https://github.com/danmkent/check-typosquatters#readme",
+  "bin": {
+    "check-typosquatters": "bin/check-typosquatters.js"
+  },
+  "dependencies": {
+    "all-the-package-names": "^1.3300.0",
+    "js-levenshtein": "^1.1.2"
+  }
+}
