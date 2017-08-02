@@ -4,6 +4,12 @@ var levenshtein = require("js-levenshtein");
 
 const inputPackageName = process.argv[2];
 
+if(inputPackageName == null)
+{
+    console.log("You must provide a package name");
+    return;
+}
+
 console.log("10 npm packages named most similarly to " + inputPackageName + ":");
 
 var smallestDiffSeen = 0;
